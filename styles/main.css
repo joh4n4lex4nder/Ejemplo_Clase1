@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* id --> # */
+/* class --> . */
+/* etiqueta html --> ul, ol */
+
+body {
+  background-color: #2a9d8f;
+  color: blueviolet;
+}
+
+header {
+  background: url(../images/Batman_DC.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* adapta la calidad de la imagen al contenedor sin alterar su forma*/
+  width: 100%;
+  height: 100vh;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto; /* el primer valor es para arriba y abajo, el segundo es para los lados o si se colocan los cuatro parámetros 0 0 0 0*/
+}
+
+.banner-principal h1 {
+  font-size: 48px;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 10px double whitesmoke;
+}
